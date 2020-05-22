@@ -1,0 +1,15 @@
+#category{
+/*     
+    justify-content: flex-start;
+    align-content: flex-start; */
+}
+#category ul{
+    list-style-type: none;
+    display: flex;
+    flex-basis: 50%;
+}
+
+#category ul li{
+    flex-grow: 3;
+}
+
