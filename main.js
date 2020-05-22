@@ -1,5 +1,5 @@
 document.getElementById("category").addEventListener('click', (e)=>{
-    location.href = '/#' + e.target.id; 
+    location.href = location.origin + location.pathname + '#' + e.target.id; 
     
     //window.open(location.origin + '#' +e.target.id, '_open'+new Date());
 });
